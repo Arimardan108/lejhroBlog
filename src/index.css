@@ -1,0 +1,30 @@
+body {
+  padding-top: 56px;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-subtitle {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: auto;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+}
